@@ -1,0 +1,84 @@
+/* Write your CSS here */
+.bg-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+  background-image: linear-gradient(to bottom, #fbc7d4, #9796f0);
+}
+
+.appoint {
+  display: flex;
+  background-color: #ffffff;
+  justify-content: space-between;
+  align-items: stretch;
+  padding: 30px;
+}
+
+.appoints {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  justify-content: space-between;
+  align-items: stretch;
+  padding: 30px;
+}
+
+.inputs {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.image {
+  margin: 100px;
+}
+
+.label {
+  margin-top: 10px;
+}
+
+.button {
+  background-color: #8b5cf6;
+  border-style: none;
+  margin: 10px;
+  width: 50px;
+  padding: 5px;
+  color: #ffffff;
+  border-radius: 5px;
+}
+
+.line {
+  color: #b5b7c4;
+  font-size: 5px;
+}
+
+.lists {
+  display: flex;
+  justify-content: space-between;
+}
+
+.lists-container {
+  margin: 20px;
+}
+
+.stared {
+  height: 20px;
+  border-radius: 5px;
+  border-style: none;
+  margin: 20px;
+  color: #ffffff;
+  background-color: #8b5cf6;
+}
+.not {
+  height: 20px;
+  border-radius: 5px;
+  border-style: none;
+  margin: 20px;
+}
+
+.lists-container {
+  display: flex;
+  flex-wrap: wrap;
+}
