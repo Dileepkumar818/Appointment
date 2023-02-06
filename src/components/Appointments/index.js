@@ -14,15 +14,17 @@ class Appointments extends Component {
 
   getDate = event => {
     const times = event.target.value
-    const time = format(new Date(times), 'dd MMMM yyyy, EEEE')
-    this.setState({date: time})
+    this.setState({date: times})
   }
 
   onAddAppoint = () => {
     const {date, title} = this.state
+    const formattedDate = date
+      ? format(new Date(date), 'dd MMMM yyyy, EEEE')
+      : ''
     const appointObj = {
       name: title,
-      time: date,
+      time: formattedDate,
       id: v4(),
       isStared: false,
     }
